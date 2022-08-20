@@ -1,0 +1,383 @@
+/* основной текст лого #000;
+цвет акцента #2196F3;
+основнной цвет задника #FFFFFF;
+вторичный цвет задника #F5F4FA;
+цвет текста #212121;
+цвет вторичного вторичного #757575;
+цвет задника у героя #2F303A;
+ */
+
+ :root {
+    --primary-text-color: #212121;
+    --akcent-text-color: #2196F3;
+    --head-bcg-color: #FFFFFF;
+    --secondary-bcg-color: #F5F4FA;
+    --logo-text-color: #000000;
+    --secondary-text-color: #757575;
+    --hero-bcg-color: #2F303A;
+    --primary-bcg-color: #E5E5E5;
+    --footer-link-color: rgba(255, 255, 255, 0.6);
+ }
+ 
+  /* оформление цвета текста */
+body{
+    background-color: var(--primary-bcg-color);
+    font-family: Roboto, sans-serif;
+    color: var(--secondary-text-color);
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+    letter-spacing: 0.03em;
+    width: 1600px;
+} 
+
+.nav {
+    color: var(--secondary-text-color);
+ }
+
+.site-nav .nav {
+    color: var(--primary-text-color);
+}
+
+.button-nav:hover,
+.button-nav:focus{
+    color: var(--head-bcg-color);
+    background-color: var(--akcent-text-color);
+    cursor: pointer;
+}
+
+.button-primary{
+    background-color: var(--akcent-text-color);
+    color: var(--head-bcg-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.85;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    border-radius: 6px;
+    min-width: 200px;
+}
+
+.button-secondary {
+    color: var(--akcent-text-color);
+    background-color: var(--primary-bg-color);
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    border-radius: 6px;
+    min-width: 200px;
+}
+
+.hero{
+    background-color: var(--hero-bcg-color);
+}
+
+
+.logo:focus,
+.logo:hover,
+.logo-footer:focus,
+.logo-footer:hover{
+    color: var(--akcent-text-color);
+}
+
+.logo-footer{
+    color: var(--head-bcg-color);
+}
+
+.web{
+    color: var(--akcent-text-color);
+}
+
+.secondary-bcg{
+    background-color: var(--secondary-bcg-color);
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+}
+
+.footer-bcg{
+    background-color: var(--hero-bcg-color);
+}
+
+.header-bcg{
+    background-color: var(--head-bcg-color);
+}
+
+.primary-text{
+    color: var(--primary-text-color);
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        text-align: justify;
+}
+
+.footer-bcg{
+    color: var(--head-bcg-color);
+}
+
+.nav:hover,
+.nav:focus{
+    color: var(--akcent-text-color);
+}
+
+.footer-text{
+    color: var(--head-bcg-color);
+}
+
+.cards{
+    background-color: var(--head-bcg-color);
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.87;
+}
+
+/* оформление размера и расположения текста */
+.secondary-text{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: var(--primary-text-color);
+    
+}
+.ternary-text{
+    color: var(--primary-text-color);
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+}
+.quaternary-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--primary-text-color)
+}
+
+.site-nav{
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+}
+
+.site-link{
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
+.logo-footer,
+
+.web{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+}
+
+.button-nav{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.03em;
+        cursor: pointer;
+}
+
+/* .all h2{
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        text-align: justify;
+} */
+
+
+.hero-text {
+    color: var(--head-bcg-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.button-hero {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.logo {
+    color: var(--primary-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+}
+
+.logo-footer{
+    font-family: Raleway, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.main-nav{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    padding-left: 215px;
+    padding-right: 215px;
+}
+
+
+/* .main-nav .item{
+    margin-left: 12px;
+} */
+
+.site-nav{
+    list-style: none;
+    display: flex;
+    margin-left: 93px;
+}
+
+.site-nav .item + .item{
+    margin-left: 50px;
+}
+
+.site-nav .nav{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.site-link{
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+
+.site-link .item + .item{
+    margin-left: 50px;
+}
+
+.hero{
+    text-align: center;
+}
+
+.button-primary{
+    margin-left: 700px;
+    margin-right: 700px;
+}
+
+.hero .hero-text{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding: 0%;
+}
+
+.ternary {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-left: 215px;
+    padding-right: 215px;
+}
+
+.ternary .ternary-text{
+    width: 270px;
+    margin-bottom: 10px;
+}
+
+.ternary .text + .text{
+    margin-left: 30px;
+}
+
+.secondary-text{
+    text-align: center;
+    margin-top: 94px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-left: 612px;
+    padding-right: 612px;
+}
+
+.suggestions-examples{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    list-style: none;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-top: 50px;
+    padding-bottom: 94px;
+}
+
+.suggestions-examples .examples + .examples{
+    margin-left: 30px;
+}
+
+.secondary-bcg .secondary-text{
+    display: flex;
+    text-align: center;
+}
+
+.people{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    list-style: none;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-top: 50px;
+    padding-bottom: 94px;
+}
+
+.people .cards + .cards{
+    margin-left: 30px;
+}
+
+.footer-bcg{
+    margin: 0%;
+    padding: 0%;
+    padding-left: 215px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-text{
+    margin: 0%;
+    padding: 0%;
+    margin-top: 20px;
+}
+
+.footer-link{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
