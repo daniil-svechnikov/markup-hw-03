@@ -182,10 +182,12 @@ body{
 
 .button-nav{
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.62;
-        letter-spacing: 0.03em;
-        cursor: pointer;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /* .all h2{
@@ -380,4 +382,53 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0%;
     padding: 0%;
     list-style: none;
+}
+
+.buttons{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    margin-top: 100px;
+    display: flex;
+    margin-left: 495px;
+    margin-right: 494px;
+}
+
+.buttons .choice + .choice{
+    margin-left: 8px;
+}
+
+.cards{
+    width: 370px;
+    margin: 0%;
+    padding: 0%;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 215px;
+    padding-right: 215px;
+    margin-top: 54px;
+}
+
+.cards:nth-child(3n){
+    margin-right: 0%;
+}
+
+.cards-text{
+    margin: 0%;
+    padding: 0%;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 20px;
+}
+
+.primary-text{
+    margin-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
