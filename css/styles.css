@@ -119,6 +119,15 @@ body {
     color: var(--head-bcg-color);
 }
 
+.footer-bcg .container{
+    padding-bottom: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-link li{
+    margin-top: 9px;
+}
+
 .nav:hover,
 .nav:focus {
     color: var(--akcent-text-color);
@@ -197,9 +206,13 @@ body {
 }
 
 .works .buttons{
-    margin-top: 94px;
+    /* margin-top: 94px; */
     margin-left: 269px;
     margin-right: 269px;
+}
+
+.works .container{
+    padding-top: 0%;
 }
 
 .button-nav + .button-nav{
@@ -300,15 +313,18 @@ header a{
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /* .footer-container{
     border: 2px solid var(--akcent-text-color);    
 } */
 
-/* .header-bcg{
-    width: 1600px;
-} */
+.header-bcg .container{
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
 
 .site-nav {
     list-style: none;
@@ -337,6 +353,10 @@ header a{
 
 .hero {
     text-align: center;
+}
+
+.hero .container{
+    padding-top: 0%;
 }
 
 /* .button-primary {
@@ -376,7 +396,7 @@ header a{
 
 .secondary-text {
     text-align: center;
-    margin-top: 94px;
+    /* margin-top: 94px; */
     display: flex;
     list-style: none;
     align-items: center;
@@ -390,7 +410,7 @@ header a{
     display: flex;
     list-style: none;
     margin-top: 50px;
-    margin-bottom: 94px;
+    /* margin-bottom: 94px; */
 }
 
 .suggestions-examples .examples+.examples {
@@ -408,7 +428,7 @@ header a{
     /* margin-left: 668px;
     margin-right: 668px; */
     padding: 0%;
-    padding-top: 94px;
+    /* padding-top: 94px; */
     padding-left: 453px;
     padding-right: 453px;
 }
@@ -421,7 +441,7 @@ header a{
     /* margin-left: 215px;
     margin-right: 215px; */
     margin-top: 50px;
-    padding-bottom: 94px;
+    /* padding-bottom: 94px; */
 }
 
 .people .cards+.cards {
@@ -431,8 +451,6 @@ header a{
 .footer-bcg {
     margin: 0%;
     padding: 0%;
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 
 .footer-text {
@@ -508,8 +526,8 @@ header a{
     height: 50px;
 }
 
-.primary-bcg .ternary{
-    margin-top: 94px;
+.primary-bcg .container{
+    padding-bottom: 0%;
 }
 
 .suggestions .secondary-text{
@@ -519,9 +537,13 @@ header a{
 }
 
 .secondary-bcg .secondary-text{
-    margin-top: 94px;
+    /* margin-top: 94px; */
 }
 
 .secondary-bcg .cards{
     width: 270px;
+}
+
+a {
+    text-decoration: none;
 }
