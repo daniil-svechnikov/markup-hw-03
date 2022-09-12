@@ -17,11 +17,12 @@
     --hero-bcg-color: #2F303A;
     --primary-bcg-color: #E5E5E5;
     --footer-link-color: rgba(255, 255, 255, 0.6);
+    --border-color: #ECECEC;
 }
 
 /* оформление цвета текста */
 body {
-    background-color: var(--primary-bcg-color);
+    background-color: var(--head-bcg-color);
     font-family: Roboto, sans-serif;
     color: var(--secondary-text-color);
     font-weight: 400;
@@ -75,14 +76,6 @@ body {
     background-color: var(--hero-bcg-color);
 }
 
-
-.logo:focus,
-.logo:hover,
-.logo-footer:focus,
-.logo-footer:hover {
-    color: var(--akcent-text-color);
-}
-
 .logo-footer {
     color: var(--head-bcg-color);
 }
@@ -105,6 +98,7 @@ body {
 
 .header-bcg {
     background-color: var(--head-bcg-color);
+    border: 1px solid #ECECEC;
 }
 
 .primary-text {
@@ -269,7 +263,6 @@ h4,
 h5,
 h6 {
     margin: 0%;
-    padding: 0%;
 }
 
 .ternary h3{
@@ -285,10 +278,6 @@ h6 {
     left: 515px;
     top: 800px;
     margin-top: 0%;
-}
-
-header a{
-    list-style: none;
 }
 
 .nav {
@@ -308,11 +297,9 @@ header a{
 
 
 .container {
-    width: 1170px;
+    width: 1200px;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -327,7 +314,6 @@ header a{
 }
 
 .site-nav {
-    list-style: none;
     display: flex;
     margin-left: 93px;
 }
@@ -342,7 +328,6 @@ header a{
 }
 
 .site-link {
-    list-style: none;
     display: flex;
     margin-left: auto;
 }
@@ -371,7 +356,6 @@ header a{
     margin-right: 0%;
     margin-top: 0%;
     margin-bottom: 30px;
-    padding: 0%;
     padding-left: 273px;
     padding-right: 273px;
     padding-top: 200px;
@@ -380,9 +364,7 @@ header a{
 .ternary {
     margin: 0%;
     display: flex;
-    list-style: none;
     align-items: center;
-    padding: 0%;
 }
 
 .ternary .ternary-text {
@@ -398,7 +380,6 @@ header a{
     text-align: center;
     /* margin-top: 94px; */
     display: flex;
-    list-style: none;
     align-items: center;
     padding-left: 612px;
     padding-right: 612px;
@@ -406,9 +387,7 @@ header a{
 
 .suggestions-examples {
     margin: 0%;
-    padding: 0%;
     display: flex;
-    list-style: none;
     margin-top: 50px;
     /* margin-bottom: 94px; */
 }
@@ -427,7 +406,6 @@ header a{
     /* margin-top: 94px; */
     /* margin-left: 668px;
     margin-right: 668px; */
-    padding: 0%;
     /* padding-top: 94px; */
     padding-left: 453px;
     padding-right: 453px;
@@ -435,9 +413,7 @@ header a{
 
 .people {
     margin: 0%;
-    padding: 0%;
     display: flex;
-    list-style: none;
     /* margin-left: 215px;
     margin-right: 215px; */
     margin-top: 50px;
@@ -450,25 +426,19 @@ header a{
 
 .footer-bcg {
     margin: 0%;
-    padding: 0%;
 }
 
 .footer-text {
     margin: 0%;
-    padding: 0%;
     margin-top: 20px;
 }
 
 .footer-link {
     margin: 0%;
-    padding: 0%;
-    list-style: none;
 }
 
 .buttons {
     margin: 0%;
-    padding: 0%;
-    list-style: none;
     margin-top: 100px;
     display: flex;
     margin-left: 495px;
@@ -482,13 +452,11 @@ header a{
 .cards {
     width: 370px;
     margin: 0%;
-    padding: 0%;
 }
 
 .all {
     display: flex;
     flex-wrap: wrap;
-    list-style: none;
     /* padding-left: 215px;
     padding-right: 215px; */
     margin-top: 54px;
@@ -502,7 +470,6 @@ header a{
 .all .cards {
     width: 370px;
     margin: 0%;
-    padding: 0%;
     /* margin-left: 24px; */
     margin-right: 30px;
     margin-bottom: 20px;
