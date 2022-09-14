@@ -320,6 +320,11 @@
     border: 1px solid #ECECEC;
 }
 
+.cards p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
 .quaternary-text {
     font-weight: 500;
     font-size: 16px;
