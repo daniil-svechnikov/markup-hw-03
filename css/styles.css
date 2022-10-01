@@ -11,6 +11,41 @@
     --border-color: #ECECEC;
 }
 
+/* основное */
+body {
+    background-color: var(--head-bcg-color);
+    font-family: Roboto, sans-serif;
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    /* width: 1600px; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0%;
+}
+
+
+.container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
 /* Добавление шрифтов */
 
 .button-primary {
@@ -220,10 +255,7 @@
 .hero .hero-text {
     /* text-align: center; */
     max-width: 696px;
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-top: 0%;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     padding-left: 273px;
     padding-right: 273px;
     padding-top: 200px;
@@ -264,29 +296,29 @@
 
 .ternary .ternary-text {
     width: 270px;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .ternary .text+.text {
-    margin-left: 30px;
+    padding-left: 30px;
 }
 
 /* род деятельности */
 
 .suggestions{
     padding-top: 94px;
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 
 .suggestions-examples {
     margin: 0%;
     display: flex;
-    margin-top: 50px;
+    padding-top: 50px;
     /* margin-bottom: 94px; */
 }
 
 .suggestions-examples .examples+.examples {
-    margin-left: 30px;
+    padding-left: 30px;
 }
 
 .suggestions .secondary-text {
@@ -320,8 +352,8 @@
 }
 
 .cards p{
-    margin-top: 10px;
-    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .quaternary-text {
@@ -350,10 +382,11 @@
 
 .logo-footer {
     color: var(--head-bcg-color);
-}
-
-.logo-footer {
     font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;    
+    letter-spacing: 0.03em;
 }
 
 .footer-text {
@@ -362,11 +395,11 @@
 
 .footer-text {
     margin: 0%;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .footer-link li {
-    margin-top: 9px;
+    padding-top: 9px;
 }
 
 .footer-link {
@@ -391,16 +424,8 @@
 
 /* кнопочки */
 
-.buttons {
-    margin: 0%;
-    margin-top: 100px;
-    display: flex;
-    margin-left: 495px;
-    margin-right: 494px;
-}
-
 .buttons .choice+.choice {
-    margin-left: 8px;
+    padding-left: 8px;
 }
 
 .button-nav:hover,
@@ -411,7 +436,7 @@
 }
 
 .button-nav+.button-nav {
-    margin-left: 8px;
+    padding-left: 8px;
 }
 
 /* карточки */
@@ -419,7 +444,7 @@
 .all {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 54px;
+    padding-top: 54px;
     padding-inline-start: 0%;
     padding-bottom: 74px;
 }
@@ -437,8 +462,8 @@
 
 .cards-text {
     margin-bottom: 30px;
-    margin-left: 24px;
-    margin-top: 4px;
+    padding-left: 24px;
+    padding-top: 4px;
 }
 
 .secondary-bcg .cards {
@@ -457,40 +482,4 @@
     display: flex;
     margin-left: 495px;
     margin-right: 494px;
-}
-
-
-/* оформление цвета текста */
-body {
-    background-color: var(--head-bcg-color);
-    font-family: Roboto, sans-serif;
-    color: var(--secondary-text-color);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    /* width: 1600px; */
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0%;
-}
-
-
-.container {
-    width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-
-a {
-    text-decoration: none;
 }
