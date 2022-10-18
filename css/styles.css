@@ -190,8 +190,6 @@ a {
 /* шапка */
 
 .site-nav .nav {
-    padding-top: 32px;
-    padding-bottom: 32px;
     color: var(--primary-text-color);
 }
 
@@ -461,7 +459,6 @@ a {
 }
 
 .cards-text {
-    margin-bottom: 30px;
     padding-left: 24px;
     padding-top: 4px;
 }
@@ -471,7 +468,7 @@ a {
 }
 
 .primary-text {
-    margin-top: 20px;
+    padding-top: 20px;
     padding-left: 24px;
     padding-right: 24px;
 }
